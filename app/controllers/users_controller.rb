@@ -1,4 +1,15 @@
 class UsersController < ApplicationController
-  def new
+  
+  
+  
+  
+  def index
   end
+  
+  def show
+  end
+  
+  
+  
+  
 end
