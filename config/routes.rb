@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'static_pages#top'
+  
+  root 'welcomes#index'
   get '/signup', to: 'users#new'
 
   # ログイン機能

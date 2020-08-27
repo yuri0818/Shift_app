@@ -2,9 +2,27 @@
 @import "bootstrap";
 /* universal */
 
-body {
-  padding-top: 60px;
+.Colorcon{
+  text-align: center;
+  font-size: 3em;
+  color: hotpink;
+  background-color: white;
+  font-family: 'Corben', cursive;
 }
+
+.ph{
+  text-align: center;
+  font-size: 3em;
+  color: hotpink;
+  background-color: white;
+  font-family: 'Corben', cursive;
+}
+
+body {
+  padding-top: 150px;
+  background-color: white;
+}
+
 
 section {
   overflow: auto;
@@ -41,7 +59,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: navy;
 }
 
 p {
@@ -50,12 +68,16 @@ p {
 }
 
 /* header */
+.navbar-inverse {
+    background-color: hotpink;
+    border-color:   white;
+}
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: pink;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -95,3 +117,13 @@ p {
     color: $state-danger-text;
   }
 }
+
+
+// .ots-base {
+    // background-color: hotpink; /* カラーフィルタ効果の色を指定 */
+    // display: inline-block;  /* (任意：インラインブロック化したい場合) */
+// }
+// .ots-image {
+    // opacity: 0.2;    /* カラーフィルタ効果の度合いを指定(※) */
+    // display: block;
+// }
